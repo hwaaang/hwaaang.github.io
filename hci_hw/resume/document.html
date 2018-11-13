@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume  </title>
+    <meta charset="utf-8"/>
+	<link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <h1>Resume</h1>
+<div class="container">
+	<br><div class="div">
+    Last Name<br>
+	 <input type="text"  id="LastName"/> <br>
+	 Middle Name
+	 <br><input type="text" id="MiddleName"/> <br>
+	 First Name
+	 <br><input type="text"  id="FirstName"/> <br>
+	 Image
+	 <br><input type="file" id="file"/>
+	 <p class="alert"></p>
+	 <br>
+	 Contact Information<br>
+   <textarea name="comments" rows="1"  id="information"/>phone number is recommended</textarea>
+   <br>
+	 Career goal/objective
+	 <br><input type="text" id="goal"/><br>
+
+	 <hr>
+           <input type="submit" value="제출" id="submit"/>
+
+
+  </div>
+
+  <div class="resumeResult">
+  <h1 class="name"></h1>
+  <p class="title">image</p>
+  <div class="image" width="300px">
+	<p class="file"></p>
+  </div>
+  <p class="title">Contact Information</p>
+  <p class="information"></p>
+  <p class="addressinfo"></p>
+  <p class="title">Career goal/objective</p>
+  <p class="goal"></p>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="application.js"></script>
+</html>

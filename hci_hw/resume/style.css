@@ -1,0 +1,88 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+	width:300px;
+	height: 30px;
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#LastName, #MiddleName, #FirstName{
+  width: 100px;
+}
+
+#file {
+	border: #ffffff;
+}
+
+#file:focus {
+	border: none;
+}
+
+textarea {
+	width: 300px;
+	border-radius: 5px;
+    border: 1px solid #aaaaaa;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+
+    border: 1px solid #FFBB00;
+}
+
+textarea, select, input, button {
+    outline: none;
+	margin-bottom : 20px;
+}
+
+#submit {
+ width: 100px;
+ height: 50px;
+ background-color: #FFBB00;
+ color: #fff;
+ font-weight: bold;
+ font-size: 20px;
+ border: none;
+ }
+
+ .resumeResult {
+	display: none;
+ }
+
+h1{
+  text-align: center;
+}
+ h1.name {
+	text-decoration : underline;
+ }
+
+ p.title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #353535;
+ }
+
+ p.alert {
+	margin: 0px;
+	margin-top: -10px;
+	color: red;
+	font-size: 11px;
+ }

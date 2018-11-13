@@ -1,0 +1,11 @@
+#drawArea {
+  width:800px;
+  display: block;
+  margin: 0 auto;
+  border-color: black;
+}
+
+
+#myCanvas {
+  margin-top:20px;
+}
